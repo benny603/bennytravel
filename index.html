@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Traveltheme</title>
+  </head>
+  <body id="home" class="scrollspy">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+      <nav class="teal">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">TravelBenny</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#search">Search</a></li>
+              <li><a href="#popular">Popular Places</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Side navbar -->
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#search">Search</a></li>
+      <li><a href="#popular">Popular</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Section: Slider -->
+    <section class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/resort1.jpg" alt="resort1" />
+          <div class="caption center-align">
+            <h2>Choose Your Dream Vaction</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptatum natus laudantium
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/resort2.jpg" alt="resort2" />
+          <div class="caption left-align">
+            <h2>We Work With All Budgets</h2>
+            <h5 class="light grey-text text-lighen-3 hide-on-small-only">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              quis repellat, eligendi omnis
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/resort3.jpg" alt="resort3" />
+          <div class="caption right-align">
+            <h2>Group & Individual Getaways</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              molestias ab at consequatur dolor quod
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/resort4.jpg" alt="resort4" />
+          <div class="caption left-align">
+            <h2>Travel Everywhere The World</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum,
+              sint!
+            </h5>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!--Section Search bar -->
+    <section
+      id="search"
+      class="section section-search teal darken-1 white-text center scrollspy"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h3>Search Destinations</h3>
+            <div class="input-field">
+              <input
+                type="text"
+                class="white grey-text autocomplete"
+                id="autocomplete-input"
+                placeholder="Japan, Tokyo est..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Icon Boxes -->
+    <section class="section section-icons grey lighten-4 center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large  teal-text">room</i>
+              <h4>Pick Where</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+                labore sit quibusdam ipsam excepturi laudantium omnis delectus
+                laboriosam perspiciatis libero.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large teal-text">store</i>
+              <h4>Travel Shop</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+                quidem aliquam molestias architecto inventore asperiores numquam
+                nostrum vero soluta tempore?
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large teal-text">airplanemode_active</i>
+              <h4>Fly Cheap</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                ipsam ipsa facere sequi cupiditate quo numquam fuga autem
+                aliquid magnam?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Popular Places -->
+    <section id="popular" class="section section-popular scrollspy">
+      <div class="container">
+        <div class="row">
+          <h4 class="center"><span class="teal-text">Popular</span> Places</h4>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/resort5.jpg" alt="" />
+                <span class="card-title">USA, New York</span>
+              </div>
+              <div class="card-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                deserunt quas provident in ullam consequuntur!
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/resort6.jpg" alt="" />
+                <span class="card-title">England, London</span>
+              </div>
+              <div class="card-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                laborum cumque, adipisci in ipsam nihil?
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/resort7.jpg" alt="" />
+                <span class="card-title">Germany, Berlin</span>
+              </div>
+              <div class="card-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                cupiditate obcaecati laborum provident consequuntur soluta.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Follow -->
+    <section class="section section-follow teal darken-2 white-text center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h4>Follow BennyTravel</h4>
+            <p>Follow us on social media for special offers</p>
+            <a href="#" class="white-text">
+              <i class="fab fa-facebook-square fa-4x"></i>
+            </a>
+            <a href="#" class="white-text">
+              <i class="fab fa-twitter fa-4x"></i>
+            </a>
+            <a href="#" class="white-text">
+              <i class="fab fa-linkedin fa-4x"></i>
+            </a>
+            <a href="#" class="white-text">
+              <i class="fab fa-google-plus fa-4x"></i>
+            </a>
+            <a href="#" class="white-text">
+              <i class="fab fa-pinterest fa-4x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Gallery -->
+    <section id="gallery" class="section section-gallary scrollspy">
+      <div class="container">
+        <h4 class="center"><span class="teal-text">Photo</span> Gallery</h4>
+        <div class="row">
+          <div class="col s12 m3">
+            <img
+              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://images.unsplash.com/photo-1535919020263-f79f5313f336?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://images.unsplash.com/photo-1445795916031-db3f62e22328?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://images.unsplash.com/photo-1556115908-233c785befbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m3">
+            <img
+              src="https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1069&q=80"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://images.unsplash.com/photo-1535919020263-f79f5313f336?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://images.unsplash.com/photo-1488747279002-c8523379faaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m3">
+            <img
+              src="https://images.unsplash.com/photo-1547131303-543b40443e96?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1074&q=80"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://images.unsplash.com/photo-1512753360435-329c4535a9a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://images.unsplash.com/photo-1559064500-4b4aee013170?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Contact -->
+    <section id="contact" class="section section-contact scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card-panel teal white-text center">
+              <i class="material-icons">email</i>
+              <h5>Contact Us For Booking</h5>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
+                magnam possimus esse recusandae reprehenderit voluptas ab unde
+                provident. Iure, fugit.
+              </p>
+            </div>
+            <ul class="collection with-header">
+              <li class="collection-header"><h4>Location</h4></li>
+              <li class="collection-item">BennyTravel Agency</li>
+              <li class="collection-item">555 Beach Rd, Suite 33</li>
+              <li class="collection-item">Miami, FL 55555</li>
+            </ul>
+          </div>
+
+          <!-- Section: Form -->
+          <div class="col s12 m6">
+            <div class="card-panel grey lighten-3">
+              <h5>Please fill out this form</h5>
+              <div class="input-field">
+                <input type="text" placeholder="Name" id="name" required />
+              </div>
+              <div class="input-field">
+                <input type="email" placeholder="Email" id="email" required />
+              </div>
+              <div class="input-field">
+                <input type="number" placeholder="Phone" id="phone" required />
+              </div>
+              <div class="input-field">
+                <textarea
+                  class="materialize-textarea"
+                  placeholder="Enter Message"
+                ></textarea>
+              </div>
+              <input type="submit" value="Submit" class="btn" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Footer -->
+    <footer class="section teal darken-2 white-text center">
+      <p class="flow-text">BennyTravel 2019 &copy;</p>
+    </footer>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+      // sidenav
+      $(document).ready(function() {
+        $(".sidenav").sidenav();
+      });
+
+      // Slider
+      $(document).ready(function() {
+        $(".slider").slider({
+          indicators: false,
+          height: 400,
+          duration: 500,
+          interval: 6000
+        });
+      });
+
+      // AutoComplete
+      $(document).ready(function() {
+        $(".autocomplete").autocomplete({
+          data: {
+            Korea: null,
+            "USA San Francisco": null,
+            Hawaii: null,
+            Floria: null,
+            California: null,
+            Europe: null,
+            Mexico: null,
+            Italy: null
+          }
+        });
+      });
+
+      // Responsive-img
+      $(document).ready(function() {
+        $(".materialboxed").materialbox();
+      });
+
+      // Scrollspy
+      $(document).ready(function() {
+        $(".scrollspy").scrollSpy();
+      });
+    </script>
+  </body>
+</html>
